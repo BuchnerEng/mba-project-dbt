@@ -5,4 +5,4 @@ sources:
     database: dbtworkshop  
     schema: enem
     tables:
-      - name: microdados
+      - name: microdados2022

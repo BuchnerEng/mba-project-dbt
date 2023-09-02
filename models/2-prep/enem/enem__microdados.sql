@@ -5,4 +5,4 @@
 select
     *
 from
-    {{ source('microdados', 'enem') }}
+    {{ source('enem', 'microdados2022') }}
