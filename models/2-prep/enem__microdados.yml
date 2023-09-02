@@ -1,0 +1,11 @@
+version: 2
+
+models:
+    - name: microdados
+      description: "Tabela contendo todos os Microdados do ENEM 2022"
+      columns:
+          - name: NU_INSCRICAO
+            description: "Número de inscrição do candidato e ID único"
+            tests:
+                - unique
+                - not_null
