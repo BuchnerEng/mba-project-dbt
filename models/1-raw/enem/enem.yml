@@ -3,6 +3,6 @@ version: 2
 sources:
   - name: enem
     database: dbtworkshop  
-    schema: enem  
+    schema: enem
     tables:
       - name: microdados
