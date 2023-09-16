@@ -1,0 +1,31 @@
+version: 2
+
+models:
+    - name: microdados
+      description: "Tabela contendo todos os Microdados do ENEM 2022"
+      columns:
+          - name: NU_INSCRICAO
+            description: "Número de inscrição do candidato e ID único."
+            tests:
+                - unique
+                - not_null
+          - name: NU_ANO
+            description: "Ano do exame."
+          - name: TP_FAIXA_ETARIA
+            description: "Faixa etária."
+          - name: TP_SEXO
+            description: "Sexo."
+          - name: TP_ESTADO_CIVIL
+            description: "Estado Civil."
+          - name: TP_COR_RACA
+            description: "Cor/raça."
+          - name: TP_NACIONALIDADE
+            description: "Nacionalidade."
+          - name: TP_ST_CONCLUSAO
+            description: Situação de conclusão do Ensino Médio."
+          - name: TP_ANO_CONCLUIU
+            description: "Ano de Conclusão do Ensino Médio."
+          - name: TP_ESCOLA
+            description: "Número de inscrição do candidato e ID único"
+          - name: NU_INSCRICAO
+            description: "Número de inscrição do candidato e ID único"

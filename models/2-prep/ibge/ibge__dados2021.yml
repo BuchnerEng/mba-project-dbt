@@ -1,0 +1,16 @@
+version: 2
+
+models:
+    - name: dados2021
+      description: "Tabela contendo todos os dados IBGE 2021"
+      columns:
+          - name: UF
+            description: "Sigla do Estado."
+          - name: COD_UF
+            description: "Código do Estado no sistema do IBGE."
+          - name: COD_MUN
+            description: "Código do Município no sistema do IBGE."
+          - name: NOME_MUNICIPIO
+            description: "Nome do Município."
+          - name: POPULACAO
+            description: "Número de habitantes."

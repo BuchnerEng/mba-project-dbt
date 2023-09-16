@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: ibge
+    database: dbtworkshop  
+    schema: ibge  
+    tables:
+      - name: dados_ibge2021
